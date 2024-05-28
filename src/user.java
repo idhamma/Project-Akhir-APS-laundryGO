@@ -4,7 +4,8 @@ class User {
     private String address;
     private String phoneNumber;
 
-    public User(String name, String address, String phoneNumber) {
+    public User(String username, String name, String address, String phoneNumber) {
+        this.username = username;
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
