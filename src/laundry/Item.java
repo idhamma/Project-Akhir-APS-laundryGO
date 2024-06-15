@@ -1,10 +1,11 @@
-import java.lang.reflect.Array;
+package laundry;
 import java.util.ArrayList;
 
 
 public class Item {
     //item adalah array list yang berisi kumpulan cucian  
     private ArrayList<Cucian> item = new ArrayList<Cucian>();
+    private double total = 0;
 
     //method
     public void add(Cucian cucian){
@@ -16,7 +17,7 @@ public class Item {
     }
 
     public void printItem(){
-        double total = 0;
+
         System.out.println("Item yang dipesan: ");
         System.out.println("==========================================================");
         System.out.println("Kategori \t Quantity \t Harga \t\t Total");
@@ -33,7 +34,9 @@ public class Item {
         }
 
         System.out.println("==========================================================");
-        System.out.println("Total Item : " + item.size() + " item");
-        System.out.println("Total Harga: Rp." + total);
     }
+
+    public double getTotal(){
+        return total;
+    }   
 }

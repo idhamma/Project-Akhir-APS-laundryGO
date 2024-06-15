@@ -1,3 +1,4 @@
+package laundry;
 public class Penyedia_laundry {
     private String id;
     private String no_rekening;

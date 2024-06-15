@@ -1,3 +1,4 @@
+package laundry;
 
 
 public class CucianPcs extends Cucian{

@@ -1,3 +1,4 @@
+package laundry;
 public class CucianBerat extends Cucian {
     private double berat;
 

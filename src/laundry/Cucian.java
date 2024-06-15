@@ -1,3 +1,4 @@
+package laundry;
 public abstract class Cucian {
     protected double harga;
 
