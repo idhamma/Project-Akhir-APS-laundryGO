@@ -9,7 +9,7 @@ import laundry.Pembayaran;
 import laundry.Penyedia_laundry;
 import laundry.User;
 
-public class Tersunit_pay {
+public class Testunit_pay {
     public static void main(String[] args) {
 
         //menggunakan order yang sudah dibuat
