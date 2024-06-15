@@ -12,7 +12,7 @@ class Order {
     private double priceKG=5000;
     private double price;
 
-    public Order(User user, LaundryService laundryService, Date orderDate, double weight, double price) {
+    public Order(User user, LaundryService laundryService, Date orderDate, double weight) {
         this.user = user;
         this.laundryService = laundryService;
         this.orderDate = orderDate;

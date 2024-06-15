@@ -24,7 +24,7 @@ public class App {
         LaundryService laundryService = new LaundryService("LaundryGO #2", "1234567890", "Jl. Setiabudi No. 193", true, "081234567890");
 
         // Membuat pesanan
-        Order order = new Order(user, laundryService, new Date(), 2, 10000);
+        Order order = new Order(user, laundryService, new Date(), 2);
 
         System.out.println("Pesanan berhasil dibuat untuk " + laundryService.getServiceName() + " dengan harga " + order.getPrice() + ".");
 
